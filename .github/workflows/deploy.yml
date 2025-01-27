@@ -14,7 +14,7 @@ jobs:
       - name: Deploy to Pinata
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
         with:
-          pin-name: 'TD2_'
+          pin-name: 'TD2_DecentralizationTechnologies'
           path: './src'
           pinata-api-key: ${{ secrets.e21acbf33e9b326f1fe2 }}
           pinata-secret-api-key: ${{ secrets.e85aea51c1e97cf7315ef76d20eb2074dc4d38c62711beece359dd626227bc78 }}
