@@ -16,7 +16,7 @@ jobs:
         with:
           pin-name: 'TD2_DecentralizationTechnologies'
           path: './src'
-          pinata-api-key: ${{ secrets.e21acbf33e9b326f1fe2 }}
-          pinata-secret-api-key: ${{ secrets.e85aea51c1e97cf7315ef76d20eb2074dc4d38c62711beece359dd626227bc78 }}
+          pinata-api-key: ${{ secrets.PINATA_API_KEY }}
+          pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
           verbose: true
           remove-old: true
